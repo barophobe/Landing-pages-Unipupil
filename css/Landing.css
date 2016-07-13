@@ -1,0 +1,332 @@
+
+html{
+  height:100%;
+  width:100%;
+}
+body{
+  height:100%;
+  width:100%;
+}
+
+
+@font-face{ 
+  font-family: 'fonted';
+   src: url("fonts/Bukhari Script.ttf") format('truetype');
+  src: url('fonts/bukhari_script-webfont.eot') format('embedded-opentype'),
+       url('fonts/bukhari_script-webfont.woff') format('woff'),
+       url('fonts/bukhari_script-webfont.svg') format('svg');
+}
+a:link {
+    text-decoration: none !important;
+}
+
+/* visited link */
+ a:visited {
+    text-decoration: none !important;
+}
+
+/* mouse over link */
+ a:hover {
+    text-decoration: inherit !important;
+}
+
+/* selected link */
+ a:active {
+    text-decoration: none !important;
+}
+
+.txtRed{
+  color: #cd181a;
+ }
+
+.abtHd{
+   font-family: fonted;
+color: #cd181a; 
+}
+.abt2Hd{
+   font-family: fonted;
+color: #C7C7C7; 
+} 
+.parCon {
+  color: #C7C7C7; 
+  text-align: center;
+}
+
+.plcHd{
+	max-width: 100%;
+	margin:0 auto;
+}
+.hdMid{
+  text-align: center;
+}
+.carImg{
+  max-width: 100%;
+  margin: auto;
+  padding-top: 5%;
+}
+.lPlc{
+  color:#ffffff; 
+  padding: 0 .9% 0 .9%;
+}
+.landList{
+  display: block;
+    max-width: 100%;
+    margin: auto;
+  list-style-type: none;
+  padding-bottom: 6%;
+  text-align: center;
+}
+.landList > li{
+  
+   padding: 0;
+   margin:0;
+}
+.txtWht{
+  color: #ffffff;
+  text-align: center;
+
+}
+.imgBik{
+  height: 100%;
+  max-width: 100%;
+  background-image:url("../assets/img/LP-hero-student.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;  
+  background-color: #ffffff;
+  color: ;
+  min-height: 100%;
+  min-width: 1024px;
+  padding: 2%;
+}
+.imgBgdStu{
+ background-image:url("../assets/img/LP-thankyou-student.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100%;  
+ color: #ffffff;
+}
+.thanksS { 
+  background: url("../assets/img/LP-thankyou-student.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+.thanksI { 
+  background: url("../assets/img/LP-thankyou-uni.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+.lpImgbgd { 
+  background: url("../assets/img/LP-hero-student.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+.lpImgbgd1 { 
+  background: url("../assets/img/LP-hero-uni.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+.siz{
+  width: 100%;
+  height: 100%;
+}
+.imgLogo{
+  display: block;
+  max-width: 100%;
+  margin:3% auto;
+  padding-top: 0;
+}
+.imgDi{
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 0;
+}
+.imgDi1{
+  width:190px;
+  margin:0;
+  padding-top: 0;
+}
+#copyPar1{
+  background-color: #1A1A1A;
+  color: #ffffff;
+  text-align: center;
+}
+.addFt1 {
+  max-width: 100%;
+  line-height: .9;
+  text-align: center;
+}
+.hdrFt1 {
+  color: #cd181a;
+  text-align: center;
+}
+.imgPosft1 {
+  max-width: 100%;
+  display:block;
+  margin: 2% auto 2% auto;
+}
+.ftCol1{
+  background-color: #F5F5F5;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 0;
+}
+.ftCol2{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 0;
+}
+ .blkTrans{
+  background-color: black;
+  color: #ffffff;
+  opacity: .9;
+  padding: 5%;
+  border-radius: 8px;
+  margin-bottom: 10%;
+ }
+ .pads{
+  padding:2%;
+ }
+  .padsLst{
+  padding-top:10%;
+ }
+ .padsLst1{
+  padding-top:7%;
+ }
+
+ .conPad{
+  width:100%;
+  padding:0;
+ }
+
+ .chkLst {
+    list-style-image: url("../assets/img/check-icon-35.png");
+    }
+.sliTxt{
+font-size: 12px;
+color: #ffffff;
+}
+
+.txtLst{
+  color:white;
+  font-size: 18px;
+
+}
+.spTxt{
+  vertical-align: 1400%;
+line-height: 1.6px;
+}
+.topSpc{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#ebook{
+  max-width: 85%;
+  margin:auto;
+}
+.slidRd{
+  background-color: #C6181A;
+  padding: 2% 0 2% 0;
+}
+
+
+.hovF {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("../assets/img/fb-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovF:hover {
+   background-image: url("../assets/img/fb-icon.png");
+}
+
+
+.hovT {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("../assets/img/twitter-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovT:hover {
+   background-image: url("../assets/img/twitter-icon.png");
+}
+
+.hovG {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("../assets/img/gplus-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovG:hover {
+   background-image: url("../assets/img/gplus-icon.png");
+}
+
+.hovL {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("../assets/img/linkedin-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovL:hover {
+   background-image: url("../assets/img/linkedin-icon.png");
+}
+
+/*form*/
+.btn-success{
+  background-color: rgba(128,177,63,1);
+  color:#ffffff;
+  opacity: 1;
+  border:none; 
+}
+
+.topTxt {
+  font-size: 60px;
+  color:#ffffff;
+  font-family: calibri;
+  font-weight: bold;
+  text-align: center;
+}
+.tpSpc{
+  padding-top: 13%;
+}
+/*.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }*/
+
+@media only screen and (min-width:280px) and (max-width: 350px)  {
+.carImg{
+  max-width: 100%;
+  margin-top:50%;
+  padding-top: 5%;
+      }
+  }
